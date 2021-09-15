@@ -1,0 +1,178 @@
+/*Variáveis*/
+:root {
+    --btn-google: #1a202c;
+    --btn-submit: #04c35c;
+
+    --white: #fff;
+
+    --bg: #f7fafc;
+
+    --link: #2b6cb0;
+
+    --title: #2b2b2b;
+    --text: #555555;
+}
+
+h1 {
+    color: var(--title);
+}
+
+p {
+    color: var(--text);
+    line-height: 30px;
+}
+
+body {
+    font-family: 'Lato-regular', sans-serif;
+}
+
+@font-face {
+    font-family: "Lato-regular";
+    src: url(font/Lato-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: "Merriweather-regular";
+    src: url(font/Merriweather-Regular.ttf);
+}
+
+main {
+    height: 100vh;
+    display: flex;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.img-container {
+    background-color: var(--bg);
+}
+
+.img-container img {
+    width: 60%;
+}
+
+/* Form */
+
+.form-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+form {
+    height: 500px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+form h2 {
+    font-family: 'Montserrat-Bold', serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+form h1 {
+    font-family: 'Montserrat-Bold', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    cursor: pointer;  
+    border-radius: 5px;
+    padding: 16px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Lato-regular";
+    font-size: 16px;
+    line-height: 19px;  
+}
+
+.btn-submit {
+    background-color: var(--btn-submit);  
+}
+
+.btn-google {
+    background-color: var(--btn-google);  
+    background-image: url('./img/google-logo.png');
+    background-size: 20px;
+    background-position: 32px;
+    background-repeat: no-repeat;
+}
+
+.btn-box > button:first-child{
+    margin-bottom: 1.6rem;
+}
+
+.box label{
+    margin-bottom: 1.2rem;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.box input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #E8E8E8;
+}
+
+.form-header {
+    margin-bottom: 16px;
+}
+
+.radio-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio-link div label{
+    margin-left: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--link);
+}
+
+
+@media (max-width: 950px) {
+    .img-container {
+        display: none;
+    }
+
+    .form-container {
+        width: 100vw;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    body, h1, h2 {
+        font-size: 80%;
+    }
+
+    form {
+        width: 90%;
+    }
+
+}
+
