@@ -1,5 +1,5 @@
 # example-layout-login-page
-> Um simples exemplo de landing page. O projeto me ajudou a trabalhar as propriedades do CSS Grid.
+> Um simples exemplo de uma página de login. O projeto me ajudou a trabalhar as propriedades do CSS Flexbox e responsivade de imagens.
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/jean-vitor/example-layout-login-page?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/jean-vitor/example-layout-login-page?style=for-the-badge)
@@ -11,7 +11,7 @@
 
 Todo o design foi proposto em um desafio da comunidade Codelândia. O design da aplicação foi criado pelo @iuricode e está disponível no Figma:
 
-<a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=3725%3A2">
+<a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=4261%3A2">
   <img alt="Made by iuri" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
 </a>
 
@@ -19,11 +19,11 @@ Todo o design foi proposto em um desafio da comunidade Codelândia. O design da 
 ### Mobile
 
 <p align="center">
-  <img src="" alt="mobile jordan shoes shopt" />
+  <img src="https://imgur.com/orK2fGg.png"  />
 </p>
 
 ### Web
 
 <p align="center">
-  <img src="" alt="full-page jordan shoes shop" />
+  <img src="https://imgur.com/7PiiqGW.png" />
 </p>
